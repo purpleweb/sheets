@@ -1,7 +1,7 @@
 github
 ======
 
-In order to user SSH Key authentification, use SSH url in config/remote.
+In order to use SSH Key authentification, you must specify SSH url in config/remote/url.
 
 In .git/config
 ```
