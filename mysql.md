@@ -1,6 +1,7 @@
 MySql
 ===
 
+```
 > SHOW DATABASES;
 > CREATE DATABASE db_name;
 > DROP DATABASE db_name;
@@ -8,6 +9,9 @@ MySql
 > GRANT ALL PRIVILEGES ON dbname.* TO user@localhost;
 > FLUSH PRIVILEGES;
 > EXIT
+```
 
+```
 $ mysql -h hostname -u user -pXXX database < dump_file
 $ mysqldump -u user -pXXX --databases db_name -h host > dumpfile.sql
+```
