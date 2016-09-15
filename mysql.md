@@ -5,7 +5,7 @@ MySql
 > SHOW DATABASES;
 > CREATE DATABASE db_name;
 > DROP DATABASE db_name;
-> CREATE USER user@localhost IDENTIFIED BY 'user';
+> CREATE USER user@localhost IDENTIFIED BY 'passwd';
 > GRANT ALL PRIVILEGES ON dbname.* TO user@localhost;
 > FLUSH PRIVILEGES;
 > EXIT
