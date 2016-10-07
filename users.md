@@ -1,9 +1,14 @@
 add user
 ```
-sudo useradd --system --gid webapps --shell /bin/bash --home /home/username username
+adduser [options] utilisateur groupe
 ```
 
 change password
 ```
 passwd username
+```
+
+delete user with files and emails
+```
+userdel -r userName
 ```
