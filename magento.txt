@@ -1,0 +1,17 @@
+*magento.txt*
+
+
+                            Magento
+
+------------------------------------------------------------------------------
+
+Generate ctags for Magento :
+
+ctags --recurse --exclude="blog" --exclude="downloader" --exclude="errors"
+    --exclude=".git" --exclude="media" --exclude="skin"
+    --exclude="var" -h ".php" .
+
+
+
+------------------------------------------------------------------------------
+ vim:tw=78:fo=tcq2:isk=!-~,^*,^\|,^\":ts=8:ft=help:norl:

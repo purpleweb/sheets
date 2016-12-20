@@ -1,0 +1,29 @@
+*documentation.txt*
+
+
+               Documentation
+
+Cette documentation est à usage personel.
+------------------------------------------------------------------------------
+
+Index ~
+|foundation.md|
+|ftp.md|
+|github.md|
+|git.txt|
+|grep.md|
+|learnpython3.py|
+|magento.txt|
+|mysql.md|
+|nginx.md|
+|php5-fpm.md|
+|python.md|
+|ssh.md|
+|ufw.md|
+|users.md|
+|vim.txt|
+|wget.md|
+
+
+------------------------------------------------------------------------------
+ vim:tw=78:fo=tcq2:isk=!-~,^*,^\|,^\":ts=8:ft=help:norl:

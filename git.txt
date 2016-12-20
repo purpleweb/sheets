@@ -1,0 +1,25 @@
+*git.txt*
+
+
+               Git
+
+------------------------------------------------------------------------------
+
+Check git config
+```
+git config -l
+```
+
+Get history overview
+```
+git log --graph --decorate --oneline
+```
+
+Get list of all files in last commit
+```
+git log --name-status HEAD^..HEAD
+```
+
+
+------------------------------------------------------------------------------
+ vim:tw=78:fo=tcq2:ts=8:ft=help:norl:
