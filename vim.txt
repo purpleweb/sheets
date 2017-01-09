@@ -9,6 +9,8 @@ La commande helptags permet de générer le ou les fichiers du système de tag.
 :helptags .
 
 
+------------------------------------------------------------------------------
+
 Utilisation ctags
 
 installation sans privilèges root
@@ -19,6 +21,9 @@ tar zxf ctags-5.8.tar.gz
 cd ctags-5.8
 ./configure --prefix=$HOME
 make && make install
+
+
+------------------------------------------------------------------------------
 
 
 Entering insert mode

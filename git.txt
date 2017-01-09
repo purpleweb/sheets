@@ -6,20 +6,16 @@
 ------------------------------------------------------------------------------
 
 Check git config
-```
-git config -l
-```
+    git config -l
 
 Get history overview
-```
-git log --graph --decorate --oneline
-```
+    git log --graph --decorate --oneline
 
 Get list of all files in last commit
-```
-git log --name-status HEAD^..HEAD
-```
+    git log --name-status HEAD^..HEAD
 
+Tell git to ignore permissions
+    git config core.filemode false
 
 ------------------------------------------------------------------------------
  vim:tw=78:fo=tcq2:ts=8:ft=help:norl:
